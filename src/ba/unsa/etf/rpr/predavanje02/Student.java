@@ -1,9 +1,11 @@
 package ba.unsa.etf.rpr.predavanje02;
 
+import java.util.ArrayList;
+
 public class Student {
     private String imeStudenta;
     private int brojIndeksa;
-
+    private ArrayList<Predmet> predmetiStudenta;
     public String getImeStudenta() {
         return imeStudenta;
     }

@@ -5,6 +5,10 @@ public class Predmet {
     private int brojECTSKredita;
     private static int brojUpisanihStudenata=0;
 
+    public Predmet(String imePredmeta, int brojKredita){
+        this.imePredmeta=imePredmeta; brojECTSKredita=brojKredita;
+    }
+
     public String getImePredmeta() {
         return imePredmeta;
     }
